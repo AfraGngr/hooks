@@ -2,6 +2,7 @@ import React from 'react';
 import Accordion from './components/Accordion';
 import Counter from './components/Counter';
 import Search from './components/Search';
+import UseEffect from './components/UseEffect';
 
 
 const items = [
@@ -20,7 +21,8 @@ const items = [
   ];
 
 export default () => {
-    return <Search />
+    // return <Search />
     // return <Accordion items={items} />;
-    // return <Counter />
+    //return <Counter />
+    return <UseEffect />
 }

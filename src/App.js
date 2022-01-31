@@ -3,6 +3,7 @@ import Accordion from './components/Accordion';
 import Counter from './components/Counter';
 import Search from './components/Search';
 import UseEffect from './components/UseEffect';
+import UseRef from './components/UseRef';
 
 
 const items = [
@@ -21,8 +22,9 @@ const items = [
   ];
 
 export default () => {
+   return <UseRef />
     // return <Search />
     // return <Accordion items={items} />;
     //return <Counter />
-    return <UseEffect />
+    //return <UseEffect />
 }
